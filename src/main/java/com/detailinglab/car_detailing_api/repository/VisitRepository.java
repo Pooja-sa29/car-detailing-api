@@ -1,11 +1,12 @@
-package repository;
+package com.detailinglab.car_detailing_api.repository;
 
 import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import entity.Visit;
+import com.detailinglab.car_detailing_api.entity.Visit;
+
 
 public interface VisitRepository extends JpaRepository<Visit, Long> {
 

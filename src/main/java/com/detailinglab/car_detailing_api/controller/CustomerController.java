@@ -1,4 +1,4 @@
-package controller;
+package com.detailinglab.car_detailing_api.controller;
 
 import java.util.List;
 
@@ -10,9 +10,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dto.CustomerRequest;
-import entity.Customer;
-import services.CustomerService;
+import com.detailinglab.car_detailing_api.dto.CustomerRequest;
+import com.detailinglab.car_detailing_api.entity.Customer;
+import com.detailinglab.car_detailing_api.services.CustomerService;
+
+
 
 @RestController
 @RequestMapping("/api/customers")

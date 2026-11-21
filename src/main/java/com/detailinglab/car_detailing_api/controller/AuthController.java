@@ -1,4 +1,4 @@
-package controller;
+package com.detailinglab.car_detailing_api.controller;
 
 
 import org.springframework.http.ResponseEntity;

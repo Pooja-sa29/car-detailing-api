@@ -1,4 +1,4 @@
-package dto;
+package com.detailinglab.car_detailing_api.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

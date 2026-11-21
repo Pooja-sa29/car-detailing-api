@@ -1,11 +1,15 @@
-package services;
+package com.detailinglab.car_detailing_api.services;
 
 import java.util.List;
 
-import dto.CustomerRequest;
-import entity.Customer;
-import repository.CustomerRepository;
+import org.springframework.stereotype.Service;
 
+import com.detailinglab.car_detailing_api.dto.CustomerRequest;
+import com.detailinglab.car_detailing_api.entity.Customer;
+import com.detailinglab.car_detailing_api.repository.CustomerRepository;
+
+
+@Service
 public class CustomerService {
 	private final CustomerRepository customerRepository;
 	

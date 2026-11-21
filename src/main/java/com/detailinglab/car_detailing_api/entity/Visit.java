@@ -1,4 +1,4 @@
-package entity;
+package com.detailinglab.car_detailing_api.entity;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
